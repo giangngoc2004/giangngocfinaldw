@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+body{
+	font-family: "Poppins", sans-serif; font-size: 16px; color: #4E4E4E; margin: 10
+}
+header{
+	width: 100%;height: 60px; background-color: #D5D5D5; border-bottom: 1px solid darkred
+}
+* {
+    box-sizing: border-box
+}
+
+.menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #3443E9
+}
+.menu a:hover {
+    color: #DC181B
+}
+main {
+    width: 100%;
+    min-height: 500px;
+    clear: both
+}
+.w-25 {
+    width: 25%;
+    padding: 15px;
+    float: left
+}
+.text-xanh {
+    color: #373737
+}
+.text-do {
+    color: #9A0002; 
+}
+.vien {
+    border: 1px solid #0F13CB;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 30px
+}
+.bo-goc {
+    border-radius: 15px
+}
+footer {
+    width: 100%;
+    height:450px;
+   padding: 20px 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-blend-mode:overlay;
+	text-decoration: none;
+	text-align: left;
+	
+    clear: both;
+	color:#686868;
+	font-size: 15px;
+	background-image: url( "images/Banner-shop.png")
+		
+ 
+   
+}
+
+.form-control {padding: 8px; margin-bottom: 10px;width: 100%}
+.btn {
+    padding: 20px 20px;
+    background-color: #FF8636;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bg-xanh{
+	height: 400px;background-color:white; text-align: center; color:#DFDFDF; padding: 5px 5px;
+    text-decoration: none;
+    font-size: 12px
+	
+
+}
+
+.w-30{width: 30%; float: left; padding: 15px}
+.w-70{width: 70%; float: right; padding: 15px}
+.gach-chan{border-bottom: 2px solid #9A0002}
+.vien-xam{width: 100%;min-height: 200px; border: 1px solid gray; border-radius: 10px; padding: 10px}
+.text-den{color: #9A0002}
+.text{font-size: 18px;font-weight: 100; color:#242424    ; padding-top: 300px}

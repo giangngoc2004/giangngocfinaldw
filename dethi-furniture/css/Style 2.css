@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+body{
+	font-family: "Poppins", sans-serif; font-size: 16px; color: #4E4E4E; margin: 10
+}
+
+.logo{
+	align-items:center;padding:15px 0; width: 20%; line-height: 0px}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 18px;
+}
+.menu ul li a{
+	padding: 10px 25px; text-decoration: none; font-size: 15px; color: #221D1D; border-radius: 20px
+}
+
+.menu ul li a:hover{
+	background-color: #FF6467; color: white
+}
+
+#slide1 .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide1 .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide1 .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide1 .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #E33639
+}
+
+#slide1 .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide1 .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide1 .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkcyan;
+      text-decoration: none; }
+main{
+	width: 100%; min-height: 1000px
+}
+aside{width: 10%; padding: 15px; background-color: white; min-height: 400px}
+.content{
+	width: 70%; padding: 15px; background-color: white; min-height: 400px
+}
+.text-do{color: #840002}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul a{
+	text-decoration: none; padding: 10px; display: block; color: #464646
+}
+aside ul a:hover{
+	background-color: #871718; color: white
+}
+aside ul li{
+	border-bottom: 1px solid #909090
+}
+.w-25{
+	width: 25%; height: 150px;
+}
+footer{
+	width: 100%; min-height: 300px;  background-color: lightgray; 
+}
+footer a{
+	color: #323131; text-decoration: none
+}
+footer a:hover{
+	color: white
+}
+.bg-xanh{
+	 min-height: 200px; background-color: #78CDCF; text-align: center
+}
+footer ul{
+	margin: 0; padding: 0; display: flex;; flex-direction: column; list-style: none
+}
+footer ul li a{ padding: 10px; display: block; color: #00063B}
+.text-color{
+	color: #6D450A
+}
+.blog{
+  display: flex;
+  align-items: center;
+}
+.blog_item{
+  display: flex;
+  flex-direction: column ;
+  align-items: center ;
+}
+.text-blog{
+  margin: 20px; color:#9A0002; font-size: 12px
+
+}
+.text-tieude{ font-size: 20px}
+.image-blog{
+  width: 450px;
+  height: 450px;
+padding: 20px;
+	
+}
+.img-10{
+	
+	width: 50px;
+  height: 50px;
+	display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
